@@ -6,7 +6,7 @@ import { PagesComponent } from './pages.component';
 
 const routes: Routes = [
     {
-        path: 'dashboard',
+        path: 'mga-dga',
         component: PagesComponent,
         loadChildren: () => import('./child-routes.module').then( m => m.ChildRoutesModule )
     },
