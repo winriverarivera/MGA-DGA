@@ -12,9 +12,9 @@ import { PipesModule } from '../pipes/pipes.module';
 import { PagesComponent } from './pages.component';
 import { MgaMainComponent } from './mga-main/mga-main.component';
 
-
-
-
+// Ng-Prime Components
+import {ButtonModule} from 'primeng/button';
+import {TableModule} from 'primeng/table';
 
 
 @NgModule({
@@ -33,7 +33,9 @@ import { MgaMainComponent } from './mga-main/mga-main.component';
     SharedModule,
     RouterModule,
     ComponentsModule,
-    PipesModule
+    PipesModule,
+    TableModule,
+    ButtonModule
   ]
 })
 export class PagesModule { }
