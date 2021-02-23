@@ -41,11 +41,11 @@ Seach listing Page
       margin: 0px;
       font-size: 18px; }
       .search-listing li h3 a {
-        color: #398bf7; }
+        color: #7F95A4; }
         .search-listing li h3 a:hover {
           text-decoration: underline; }
     .search-listing li a {
-      color: #06d79c; }
+      color: #89D1CD; }
 
 /*******************
 Gridstack Dragable portlet
@@ -76,7 +76,7 @@ Grid page
 Date paginator page
 ******************/
 .dp-selected[style] {
-  background-color: #398bf7 !important; }
+  background-color: #7F95A4 !important; }
 
 .datepaginator-sm .pagination li a,
 .datepaginator-lg .pagination li a,
@@ -91,11 +91,11 @@ Date paginator page
 Notification page Jquery toaster
 ******************/
 .jq-icon-info {
-  background-color: #398bf7;
+  background-color: #7F95A4;
   color: #ffffff; }
 
 .jq-icon-success {
-  background-color: #06d79c;
+  background-color: #89D1CD;
   color: #ffffff; }
 
 .jq-icon-error {
@@ -103,7 +103,7 @@ Notification page Jquery toaster
   color: #ffffff; }
 
 .jq-icon-warning {
-  background-color: #ffb22b;
+  background-color: #dd9133;
   color: #ffffff; }
 
 .alert-rounded {
@@ -117,8 +117,8 @@ list and media
 
 .list-group-item.active,
 .list-group .list-group-item.active:hover {
-  background: #398bf7;
-  border-color: #398bf7; }
+  background: #7F95A4;
+  border-color: #7F95A4; }
 
 .list-group-item.disabled {
   color: #99abb4;

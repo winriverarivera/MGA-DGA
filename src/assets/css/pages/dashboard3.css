@@ -20,7 +20,7 @@ File: scss
 *******************/
 #sales-overview2 .ct-point {
   stroke-width: 6px;
-  stroke: #398bf7; }
+  stroke: #7F95A4; }
 
 #sales-overview2 .ct-grid {
   stroke-dasharray: 0px;
@@ -31,7 +31,7 @@ File: scss
 
 #sales-overview2 .ct-line {
   stroke-width: 3px;
-  stroke: #398bf7; }
+  stroke: #7F95A4; }
 
 .stats-bar .active {
   background-color: rgba(0, 0, 0, 0.1); }
@@ -41,15 +41,15 @@ File: scss
   fill: url(#gradient); }
 
 .website-visitor .ct-series-a .ct-line, .website-visitor .ct-series-a .ct-point {
-  stroke: #06d79c;
+  stroke: #89D1CD;
   stroke-width: 2px; }
 
 .website-visitor .ct-series-b .ct-area {
-  fill: #398bf7;
+  fill: #7F95A4;
   fill-opacity: 0.1; }
 
 .website-visitor .ct-series-b .ct-line, .website-visitor .ct-series-b .ct-point {
-  stroke: #398bf7;
+  stroke: #7F95A4;
   stroke-width: 2px; }
 
 .website-visitor .ct-series-a .ct-point, .website-visitor .ct-series-b .ct-point {

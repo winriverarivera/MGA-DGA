@@ -14,6 +14,12 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 // Componentes NG Prime
 import {ButtonModule} from 'primeng/button';
 import {TableModule} from 'primeng/table';
+import {InputTextModule} from 'primeng/inputtext';
+import {CheckboxModule} from 'primeng/checkbox';
+import {RadioButtonModule} from 'primeng/radiobutton';
+import {DropdownModule} from 'primeng/dropdown';
+import {InputTextareaModule} from 'primeng/inputtextarea';
+import {TabViewModule} from 'primeng/tabview';
 
 @NgModule({
   declarations: [
@@ -27,7 +33,13 @@ import {TableModule} from 'primeng/table';
     PagesModule,
     AuthModule,
     ButtonModule,
-    TableModule
+    TableModule,
+    InputTextModule,
+    CheckboxModule,
+    RadioButtonModule,
+    DropdownModule,
+    InputTextareaModule,
+    TabViewModule
   ],
   bootstrap: [AppComponent]
 })

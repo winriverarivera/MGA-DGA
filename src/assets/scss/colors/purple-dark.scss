@@ -7,9 +7,9 @@ File: scss
 
 @import '../variable';
 $themecolor: #7460ee;
-$themecolor-dark: #028ee1;
+$themecolor-dark: #241A30;
 $topbar: #7460ee;
-$sidebar:#242a33;
+$sidebar:#241A30;
 $sidebar-text: #687384;
 $sidebar-icons: #424a56;
 $sidebar-dark: #1c2128;
@@ -31,7 +31,7 @@ $topbar-alt: #272c33;
     }
     .navbar-nav .nav-item > {
         a.nav-link {
-            color: rgba(255, 255, 255, 0.8); 
+            color: rgba(255, 255, 255, 0.8);
             &:hover,
             &:focus {
                 color:$white!important;
@@ -208,7 +208,7 @@ a.link {
 }
 @media (min-width: 768px){
     .mini-sidebar .sidebar-nav #sidebarnav > li:hover > a {
-        
+
         background: $sidebar-alt;
     }
-} 
+}

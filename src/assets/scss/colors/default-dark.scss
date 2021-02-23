@@ -6,16 +6,16 @@ File: scss
 */
 
 @import '../variable';
-$themecolor: #398bf7;
-$themecolor-dark: #028ee1;
+$themecolor: #7F95A4;
+$themecolor-dark: #241A30;
 $topbar: #fff;
-$sidebar:#242a33;
+$sidebar:#241A30;
 $sidebar-text: #687384;
 $sidebar-icons: #424a56;
 $sidebar-dark: #1c2128;
 $sidebar-alt:#1c2128;
 $themecolor-alt: #26c6da;
-$topbar-alt: #398bf7;
+$topbar-alt: #7F95A4;
 
 /*******************
 /*Top bar
@@ -36,11 +36,11 @@ $topbar-alt: #398bf7;
             color: #a6b7bf;
             &:hover,
             &:focus {
-                color:#242a33!important;
+                color:#241A30!important;
             }
         }
     }
-    
+
 }
 
 .logo-center .topbar {
@@ -202,7 +202,7 @@ a.link {
 }
 @media (min-width: 768px){
     .mini-sidebar .sidebar-nav #sidebarnav > li:hover > a {
-        
+
         background: $sidebar-alt;
     }
 }

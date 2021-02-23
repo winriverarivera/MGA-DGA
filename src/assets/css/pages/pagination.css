@@ -57,8 +57,8 @@ Pagination
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
-  background-color: #398bf7;
-  border-color: #398bf7; }
+  background-color: #7F95A4;
+  border-color: #7F95A4; }
 
 .pager li > a,
 .pager li > span {
@@ -71,7 +71,7 @@ Pagination
 Pagination
 ******************/
 .pagination-circle li.active a {
-  background: #06d79c; }
+  background: #89D1CD; }
 
 .pagination-circle li a {
   width: 40px;
@@ -83,7 +83,7 @@ Pagination
   .pagination-circle li a:first-child, .pagination-circle li a:last-child {
     border-radius: 100%; }
   .pagination-circle li a:hover {
-    background: #06d79c;
+    background: #89D1CD;
     color: #ffffff; }
 
 .pagination-circle li.disabled a {

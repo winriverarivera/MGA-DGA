@@ -15,15 +15,21 @@ import { MgaMainComponent } from './mga-main/mga-main.component';
 // Ng-Prime Components
 import {ButtonModule} from 'primeng/button';
 import {TableModule} from 'primeng/table';
+import { ConsultaComponent } from './auditoria/consulta/consulta.component';
+import { InputTextModule } from 'primeng/inputtext';
+import {CalendarModule} from 'primeng/calendar';
+import {CardModule} from 'primeng/card';
 
 
 @NgModule({
   declarations: [
     PagesComponent,
+    ConsultaComponent,
     MgaMainComponent
   ],
   exports: [
     MgaMainComponent,
+    ConsultaComponent,
     PagesComponent
   ],
   imports: [
@@ -35,7 +41,10 @@ import {TableModule} from 'primeng/table';
     ComponentsModule,
     PipesModule,
     TableModule,
-    ButtonModule
+    ButtonModule,
+    InputTextModule,
+    CalendarModule,
+    CardModule
   ]
 })
 export class PagesModule { }

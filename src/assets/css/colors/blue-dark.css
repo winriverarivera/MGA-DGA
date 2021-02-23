@@ -101,14 +101,14 @@ a.link:hover, a.link:focus {
   .btn-themecolor.active, .btn-themecolor:focus,
   .btn-themecolor.disabled.active,
   .btn-themecolor.disabled:focus {
-    background: #028ee1; }
+    background: #241A30; }
 
 /*******************
 /*sidebar navigation
 *******************/
 .card-no-border .left-sidebar,
 .card-no-border .sidebar-nav {
-  background: #242a33; }
+  background: #241A30; }
 
 .mini-sidebar .sidebar-nav {
   background: transparent; }
@@ -118,7 +118,7 @@ a.link:hover, a.link:focus {
     background: #1c2128; } }
 
 .sidebar-nav {
-  background: #242a33; }
+  background: #241A30; }
 
 .user-profile .profile-text a {
   color: #687384 !important; }

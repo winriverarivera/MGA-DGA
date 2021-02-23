@@ -118,19 +118,19 @@ Timeline page
   border-left-width: 0; }
 
 .timeline-badge.primary {
-  background-color: #745af2; }
+  background-color: #7F4B81; }
 
 .timeline-badge.success {
-  background-color: #06d79c; }
+  background-color: #89D1CD; }
 
 .timeline-badge.warning {
-  background-color: #ffb22b; }
+  background-color: #dd9133; }
 
 .timeline-badge.danger {
   background-color: #ef5350; }
 
 .timeline-badge.info {
-  background-color: #398bf7; }
+  background-color: #7F95A4; }
 
 .timeline-title {
   margin-top: 0;
@@ -149,14 +149,14 @@ Horizontal Timeline page
 ******************/
 .cd-horizontal-timeline .events a {
   padding-bottom: 6px;
-  color: #398bf7; }
+  color: #7F95A4; }
 
 .cd-horizontal-timeline .filling-line,
 .cd-horizontal-timeline .events a.selected::after {
-  background: #398bf7; }
+  background: #7F95A4; }
 
 .cd-horizontal-timeline .events a.selected::after {
-  border-color: #398bf7; }
+  border-color: #7F95A4; }
 
 .cd-horizontal-timeline .m-t-40 {
   margin-top: 40px !important; }
