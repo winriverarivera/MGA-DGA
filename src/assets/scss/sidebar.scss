@@ -79,14 +79,14 @@ sidebar navigation
                 font-weight: 400;
                 &.active,
                 &:hover {
-                    color: $themecolor;
+                    color: #79cbbd;
                     i {
-                        color: $themecolor;
+                        color: #79cbbd;
                     }
                 }
                 &.active {
                     font-weight: 500;
-                    color: $dark;
+                    color: #7F4B81;
                 }
             }
             ul {
@@ -127,7 +127,7 @@ sidebar navigation
         }
         &.active {
             font-weight: 400;
-            background: $white;
+            background: #7F4B81;
             color: $themecolor-alt;
         }
     }
@@ -255,7 +255,7 @@ When click on sidebar toggler and also for tablet
         }
         .sidebar-nav #sidebarnav > li:hover > a {
             width: 290px;
-            background: $sidebar-alt;
+            background: #79cbbd;
             .hide-menu {
                 display: inline;
             }

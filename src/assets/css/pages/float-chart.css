@@ -15,7 +15,7 @@ File: scss
 /*Light colors*/
 /*Normal Color*/
 /*Extra Variable*/
-/*============================================================== 
+/*==============================================================
  flot chart
  ============================================================== */
 .flot-chart {
@@ -30,7 +30,7 @@ html body .jqstooltip,
 html body .flotTip {
   width: auto !important;
   height: auto !important;
-  background: #263238;
+  background: #241A30;
   color: #ffffff;
   padding: 5px 10px; }
 

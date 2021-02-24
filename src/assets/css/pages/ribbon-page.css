@@ -62,7 +62,7 @@ ribbons page
   width: 0;
   height: 0;
   content: '';
-  border: 15px solid #263238;
+  border: 15px solid #241A30;
   border-right: 10px solid transparent; }
 
 .ribbon-right {
@@ -72,7 +72,7 @@ ribbons page
 .ribbon-bookmark.ribbon-right:before {
   right: 100%;
   left: auto;
-  border-right: 15px solid #263238;
+  border-right: 15px solid #241A30;
   border-left: 10px solid transparent; }
 
 .ribbon-vertical-l,
@@ -95,7 +95,7 @@ ribbons page
   top: 100%;
   left: 0;
   margin-top: -14px;
-  border-right: 15px solid #263238;
+  border-right: 15px solid #241A30;
   border-bottom: 10px solid transparent; }
 
 .ribbon-badge {
@@ -326,29 +326,29 @@ ribbons page
   border-bottom-color: #ef5350; }
 
 .ribbon-default {
-  background: #263238; }
+  background: #241A30; }
 
 .ribbon-bookmark.ribbon-default:before {
-  border-color: #263238;
+  border-color: #241A30;
   border-right-color: transparent; }
 
 .ribbon-bookmark.ribbon-right.ribbon-default:before {
-  border-right-color: #263238;
+  border-right-color: #241A30;
   border-left-color: transparent; }
 
 .ribbon-bookmark.ribbon-vertical-l.ribbon-default:before,
 .ribbon-bookmark.ribbon-vertical-r.ribbon-default:before {
-  border-right-color: #263238;
+  border-right-color: #241A30;
   border-bottom-color: transparent; }
 
 .ribbon-default.ribbon-corner:before {
-  border-top-color: #263238;
-  border-left-color: #263238; }
+  border-top-color: #241A30;
+  border-left-color: #241A30; }
 
 .ribbon-default.ribbon-corner.ribbon-right:before {
-  border-right-color: #263238;
+  border-right-color: #241A30;
   border-left-color: transparent; }
 
 .ribbon-default.ribbon-corner.ribbon-bottom:before {
   border-top-color: transparent;
-  border-bottom-color: #263238; }
+  border-bottom-color: #241A30; }

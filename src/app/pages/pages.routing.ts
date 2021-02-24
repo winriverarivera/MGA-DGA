@@ -1,9 +1,10 @@
 import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 
+// Componente de Paginas
 import { PagesComponent } from './pages.component';
 
-
+// Rutas padres
 const routes: Routes = [
     {
         path: 'mga-dga',

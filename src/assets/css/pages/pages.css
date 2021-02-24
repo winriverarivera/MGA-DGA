@@ -503,82 +503,82 @@ ul#themecolors {
   background: #56c0d8; }
 
 .default-dark-theme {
-  background: #263238;
+  background: #241A30;
   /* Old browsers */
-  background: -moz-linear-gradient(left, #263238 0%, #263238 23%, #99abb4 23%, #99abb4 99%);
+  background: -moz-linear-gradient(left, #241A30 0%, #241A30 23%, #99abb4 23%, #99abb4 99%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #263238 0%, #263238 23%, #99abb4 23%, #99abb4 99%);
+  background: -webkit-linear-gradient(left, #241A30 0%, #241A30 23%, #99abb4 23%, #99abb4 99%);
   /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#263238), color-stop(23%, #263238), color-stop(23%, #99abb4), color-stop(99%, #99abb4));
-  background: -o-linear-gradient(left, #263238 0%, #263238 23%, #99abb4 23%, #99abb4 99%);
-  background: linear-gradient(to right, #263238 0%, #263238 23%, #99abb4 23%, #99abb4 99%); }
+  background: -webkit-gradient(linear, left top, right top, from(#241A30), color-stop(23%, #241A30), color-stop(23%, #99abb4), color-stop(99%, #99abb4));
+  background: -o-linear-gradient(left, #241A30 0%, #241A30 23%, #99abb4 23%, #99abb4 99%);
+  background: linear-gradient(to right, #241A30 0%, #241A30 23%, #99abb4 23%, #99abb4 99%); }
 
 .green-dark-theme {
-  background: #263238;
+  background: #241A30;
   /* Old browsers */
-  background: -moz-linear-gradient(left, #263238 0%, #263238 23%, #89D1CD 23%, #89D1CD 99%);
+  background: -moz-linear-gradient(left, #241A30 0%, #241A30 23%, #89D1CD 23%, #89D1CD 99%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #263238 0%, #263238 23%, #00c292 23%, #89D1CD 99%);
+  background: -webkit-linear-gradient(left, #241A30 0%, #241A30 23%, #00c292 23%, #89D1CD 99%);
   /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#263238), color-stop(23%, #263238), color-stop(23%, #89D1CD), color-stop(99%, #89D1CD));
-  background: -webkit-linear-gradient(left, #263238 0%, #263238 23%, #89D1CD 23%, #89D1CD 99%);
-  background: -o-linear-gradient(left, #263238 0%, #263238 23%, #89D1CD 23%, #89D1CD 99%);
-  background: linear-gradient(to right, #263238 0%, #263238 23%, #89D1CD 23%, #89D1CD 99%); }
+  background: -webkit-gradient(linear, left top, right top, from(#241A30), color-stop(23%, #241A30), color-stop(23%, #89D1CD), color-stop(99%, #89D1CD));
+  background: -webkit-linear-gradient(left, #241A30 0%, #241A30 23%, #89D1CD 23%, #89D1CD 99%);
+  background: -o-linear-gradient(left, #241A30 0%, #241A30 23%, #89D1CD 23%, #89D1CD 99%);
+  background: linear-gradient(to right, #241A30 0%, #241A30 23%, #89D1CD 23%, #89D1CD 99%); }
 
 .yellow-dark-theme {
-  background: #263238;
+  background: #241A30;
   /* Old browsers */
-  background: -moz-linear-gradient(left, #263238 0%, #263238 23%, #ef5350 23%, #ef5350 99%);
+  background: -moz-linear-gradient(left, #241A30 0%, #241A30 23%, #ef5350 23%, #ef5350 99%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #263238 0%, #263238 23%, #ef5350 23%, #ef5350 99%);
+  background: -webkit-linear-gradient(left, #241A30 0%, #241A30 23%, #ef5350 23%, #ef5350 99%);
   /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#263238), color-stop(23%, #263238), color-stop(23%, #ef5350), color-stop(99%, #ef5350));
-  background: -o-linear-gradient(left, #263238 0%, #263238 23%, #ef5350 23%, #ef5350 99%);
-  background: linear-gradient(to right, #263238 0%, #263238 23%, #ef5350 23%, #ef5350 99%); }
+  background: -webkit-gradient(linear, left top, right top, from(#241A30), color-stop(23%, #241A30), color-stop(23%, #ef5350), color-stop(99%, #ef5350));
+  background: -o-linear-gradient(left, #241A30 0%, #241A30 23%, #ef5350 23%, #ef5350 99%);
+  background: linear-gradient(to right, #241A30 0%, #241A30 23%, #ef5350 23%, #ef5350 99%); }
 
 .blue-dark-theme {
-  background: #263238;
+  background: #241A30;
   /* Old browsers */
-  background: -moz-linear-gradient(left, #263238 0%, #263238 23%, #7F95A4 23%, #7F95A4 99%);
+  background: -moz-linear-gradient(left, #241A30 0%, #241A30 23%, #7F95A4 23%, #7F95A4 99%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #263238 0%, #263238 23%, #7F95A4 23%, #7F95A4 99%);
+  background: -webkit-linear-gradient(left, #241A30 0%, #241A30 23%, #7F95A4 23%, #7F95A4 99%);
   /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#263238), color-stop(23%, #263238), color-stop(23%, #7F95A4), color-stop(99%, #7F95A4));
-  background: -o-linear-gradient(left, #263238 0%, #263238 23%, #7F95A4 23%, #7F95A4 99%);
-  background: linear-gradient(to right, #263238 0%, #263238 23%, #7F95A4 23%, #7F95A4 99%); }
+  background: -webkit-gradient(linear, left top, right top, from(#241A30), color-stop(23%, #241A30), color-stop(23%, #7F95A4), color-stop(99%, #7F95A4));
+  background: -o-linear-gradient(left, #241A30 0%, #241A30 23%, #7F95A4 23%, #7F95A4 99%);
+  background: linear-gradient(to right, #241A30 0%, #241A30 23%, #7F95A4 23%, #7F95A4 99%); }
 
 .purple-dark-theme {
-  background: #263238;
+  background: #241A30;
   /* Old browsers */
-  background: -moz-linear-gradient(left, #263238 0%, #263238 23%, #7460ee 23%, #7460ee 99%);
+  background: -moz-linear-gradient(left, #241A30 0%, #241A30 23%, #7460ee 23%, #7460ee 99%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #263238 0%, #263238 23%, #7460ee 23%, #7460ee 99%);
+  background: -webkit-linear-gradient(left, #241A30 0%, #241A30 23%, #7460ee 23%, #7460ee 99%);
   /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#263238), color-stop(23%, #263238), color-stop(23%, #7460ee), color-stop(99%, #7460ee));
-  background: -o-linear-gradient(left, #263238 0%, #263238 23%, #7460ee 23%, #7460ee 99%);
-  background: linear-gradient(to right, #263238 0%, #263238 23%, #7460ee 23%, #7460ee 99%); }
+  background: -webkit-gradient(linear, left top, right top, from(#241A30), color-stop(23%, #241A30), color-stop(23%, #7460ee), color-stop(99%, #7460ee));
+  background: -o-linear-gradient(left, #241A30 0%, #241A30 23%, #7460ee 23%, #7460ee 99%);
+  background: linear-gradient(to right, #241A30 0%, #241A30 23%, #7460ee 23%, #7460ee 99%); }
 
 .megna-dark-theme {
-  background: #263238;
+  background: #241A30;
   /* Old browsers */
-  background: -moz-linear-gradient(left, #263238 0%, #263238 23%, #56c0d8 23%, #56c0d8 99%);
+  background: -moz-linear-gradient(left, #241A30 0%, #241A30 23%, #56c0d8 23%, #56c0d8 99%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #263238 0%, #263238 23%, #56c0d8 23%, #56c0d8 99%);
+  background: -webkit-linear-gradient(left, #241A30 0%, #241A30 23%, #56c0d8 23%, #56c0d8 99%);
   /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#263238), color-stop(23%, #263238), color-stop(23%, #56c0d8), color-stop(99%, #56c0d8));
-  background: -o-linear-gradient(left, #263238 0%, #263238 23%, #56c0d8 23%, #56c0d8 99%);
-  background: linear-gradient(to right, #263238 0%, #263238 23%, #56c0d8 23%, #56c0d8 99%); }
+  background: -webkit-gradient(linear, left top, right top, from(#241A30), color-stop(23%, #241A30), color-stop(23%, #56c0d8), color-stop(99%, #56c0d8));
+  background: -o-linear-gradient(left, #241A30 0%, #241A30 23%, #56c0d8 23%, #56c0d8 99%);
+  background: linear-gradient(to right, #241A30 0%, #241A30 23%, #56c0d8 23%, #56c0d8 99%); }
 
 .red-dark-theme {
-  background: #263238;
+  background: #241A30;
   /* Old browsers */
-  background: -moz-linear-gradient(left, #263238 0%, #263238 23%, #ef5350 23%, #ef5350 99%);
+  background: -moz-linear-gradient(left, #241A30 0%, #241A30 23%, #ef5350 23%, #ef5350 99%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #263238 0%, #263238 23%, #ef5350 23%, #ef5350 99%);
+  background: -webkit-linear-gradient(left, #241A30 0%, #241A30 23%, #ef5350 23%, #ef5350 99%);
   /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#263238), color-stop(23%, #263238), color-stop(23%, #ef5350), color-stop(99%, #ef5350));
-  background: -o-linear-gradient(left, #263238 0%, #263238 23%, #ef5350 23%, #ef5350 99%);
-  background: linear-gradient(to right, #263238 0%, #263238 23%, #ef5350 23%, #ef5350 99%); }
+  background: -webkit-gradient(linear, left top, right top, from(#241A30), color-stop(23%, #241A30), color-stop(23%, #ef5350), color-stop(99%, #ef5350));
+  background: -o-linear-gradient(left, #241A30 0%, #241A30 23%, #ef5350 23%, #ef5350 99%);
+  background: linear-gradient(to right, #241A30 0%, #241A30 23%, #ef5350 23%, #ef5350 99%); }
 
 /*******************
  Footer
@@ -789,7 +789,7 @@ html body .jqstooltip,
 html body .flotTip {
   width: auto !important;
   height: auto !important;
-  background: #263238;
+  background: #241A30;
   color: #ffffff;
   padding: 5px 10px; }
 
@@ -848,7 +848,7 @@ Pagination
 
 .pagination > li > a,
 .pagination > li > span {
-  color: #263238; }
+  color: #241A30; }
 
 .pagination > li > a:hover,
 .pagination > li > span:hover,
@@ -883,7 +883,7 @@ Pagination
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
-  color: #263238; }
+  color: #241A30; }
 
 /*******************
 Pagination
@@ -1027,8 +1027,8 @@ Buttons
     -webkit-box-shadow: 0 14px 26px -12px rgba(169, 169, 169, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(169, 169, 169, 0.2);
     box-shadow: 0 14px 26px -12px rgba(169, 169, 169, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(169, 169, 169, 0.2);
     color: #ffffff !important;
-    background: #263238;
-    border-color: #263238; }
+    background: #241A30;
+    border-color: #241A30; }
 
 .btn-secondary.disabled:hover, .btn-secondary.disabled:focus, .btn-secondary.disabled:active {
   color: #67757c !important;
@@ -3115,7 +3115,7 @@ Table-Layout
   color: #ffffff; }
 
 .color-table.dark-table thead th {
-  background-color: #263238;
+  background-color: #241A30;
   color: #ffffff; }
 
 .color-table.red-table thead th {
@@ -3167,9 +3167,9 @@ Table-Layout
     color: #ffffff; }
 
 .color-bordered-table.dark-bordered-table {
-  border: 2px solid #263238; }
+  border: 2px solid #241A30; }
   .color-bordered-table.dark-bordered-table thead th {
-    background-color: #263238;
+    background-color: #241A30;
     color: #ffffff; }
 
 .color-bordered-table.red-bordered-table {
@@ -3265,14 +3265,14 @@ Table-Layout
 .full-color-table.full-dark-table {
   background-color: rgba(43, 43, 43, 0.8); }
   .full-color-table.full-dark-table thead th {
-    background-color: #263238;
+    background-color: #241A30;
     border: 0;
     color: #ffffff; }
   .full-color-table.full-dark-table tbody td {
     border: 0;
     color: #ffffff; }
   .full-color-table.full-dark-table tr:hover {
-    background-color: #263238;
+    background-color: #241A30;
     color: #ffffff; }
 
 .full-color-table.full-red-table {

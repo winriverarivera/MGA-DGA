@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+
+// Componentes NGPrime
 import { Table } from 'primeng/table';
 
 @Component({
@@ -8,7 +10,7 @@ import { Table } from 'primeng/table';
 })
 export class ConsultaComponent implements OnInit {
 
-  // Variables para tabla
+  // Variables para datatable
   dataTable: any[] = [];
 
   dumbData = [

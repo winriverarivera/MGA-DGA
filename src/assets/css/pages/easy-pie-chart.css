@@ -15,8 +15,8 @@ File: scss
 /*Light colors*/
 /*Normal Color*/
 /*Extra Variable*/
-/*============================================================== 
-Easy pie chart 
+/*==============================================================
+Easy pie chart
  ============================================================== */
 .chart {
   position: relative;
@@ -66,7 +66,7 @@ Easy pie chart
   z-index: 2;
   font-weight: 600;
   font-size: 18px;
-  color: #263238; }
+  color: #241A30; }
   .percent:after {
     content: '%';
     margin-left: 0.1em;
