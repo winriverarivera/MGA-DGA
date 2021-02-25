@@ -20,6 +20,7 @@ import { ConsultaComponent } from './auditoria/consulta/consulta.component';
 import { InputTextModule } from 'primeng/inputtext';
 import { CalendarModule } from 'primeng/calendar';
 import { CardModule } from 'primeng/card';
+import { ToastModule } from 'primeng/toast';
 
 
 @NgModule({
@@ -48,7 +49,8 @@ import { CardModule } from 'primeng/card';
     ButtonModule,
     InputTextModule,
     CalendarModule,
-    CardModule
+    CardModule,
+    ToastModule
   ]
 })
 export class PagesModule { }

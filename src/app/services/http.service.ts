@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpParams } from '@angular/common/http';
+import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { environment } from '../../environments/environment.prod';
 
 //Constantes
@@ -21,9 +21,13 @@ export class HttpService {
   }
 
   // funcion generica que ejecuta un post
-  post<T>( query: string, data: HttpParams ) {
+  post<T>( query: string, data: any ) {
     query = apiURL + query;
-    return this.http.post<T>( query, data);
+    const httpOptions = {
+      headers: new HttpHeaders({'Content-Type': 'application/json'})
+    }
+
+    return this.http.post<T>(query, JSON.stringify(data), httpOptions);
   }
 
   // funcion genreica que ejecuta un PUT

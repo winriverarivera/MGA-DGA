@@ -4,7 +4,7 @@
     <div class="card-header bg-info">
       <h5 class="m-b-0 text-white">Consulta de Auditoria</h5>
     </div>
-    <form class="form-horizontal">
+    <form class="form-horizontal" (ngSubmit)="getConsultaAditoria()" [formGroup]="forma">
       <div class="form-body">
         <div class="card-body">
 
@@ -26,17 +26,31 @@
               <input id="firstname5"
                      type="text"
                      pInputText
+                     formControlName="nit"
+                     [class]="nitNoValido ? 'ng-invalid':''"
                      placeholder="NIT" />
+              <br>
+              <small *ngIf="nitNoValido" class="text-danger">
+                Ingrese un número de NIT
+              </small>
             </div>
+            
 
             <!-- Fecha Inicio -->
             <div class="p-field">
               <label for="lastname5" class="p-sr-only">Fecha Inicio</label>
               <p-calendar [showIcon]="true"
                           inputId="icon"
+                          formControlName="fechaInicio"
+                          [class]="fechaInicioNoValido ? 'ng-invalid':''"
                           placeholder="Fecha Inicio"
+                          dateFormat="yy/mm/dd"
                           class="calendar-custom">
               </p-calendar>
+              <br>
+              <small *ngIf="fechaInicioNoValido" class="text-danger">
+                Ingrese una fecha de inicio
+              </small>
             </div>
 
             <!-- Fecha Final -->
@@ -44,14 +58,21 @@
               <label for="lastname5" class="p-sr-only">Fecha Final</label>
               <p-calendar [showIcon]="true"
                           inputId="icon"
+                          formControlName="fechaFinal"
                           placeholder="Fecha Final"
+                          [class]="fechaInicioNoValido ? 'ng-invalid':''"
+                          dateFormat="yy/mm/dd"
                           class="calendar-custom">
               </p-calendar>
+              <br>
+              <small *ngIf="fechaFinalNoValido" class="text-danger">
+                Ingrese una fecha final
+              </small>
             </div>
 
             <!-- Boton de busqueda -->
             <button pButton
-                    type="button"
+                    type="submit"
                     label="Busqueda Avanzada"
                     icon="pi pi-search"
                     iconPos="left"
@@ -81,7 +102,9 @@
                 [globalFilterFields]="['NIT','Contribuyente']"
                 [showCurrentPageReport]="true"
                 currentPageReportTemplate="Mostrando {first} a {last} de {totalRecords} páginas"
-                [rowsPerPageOptions]="[5,10,15]" styleClass="p-datatable-sm p-datatable-gridlines">
+                [rowsPerPageOptions]="[5,10,15]" styleClass="p-datatable-sm p-datatable-gridlines"
+                [loading]="loading"
+                >
 
 
                 <ng-template pTemplate="caption">
@@ -98,6 +121,7 @@
                       <input pInputText
                              type="text"
                              (input)="dt1.filterGlobal($event.target.value, 'contains')"
+                             [disabled] = "loading"
                              placeholder="Buscar palabra" />
                     </span>
                   </div>
@@ -116,15 +140,24 @@
                 </ng-template>
                 <ng-template pTemplate="body" let-data>
                   <tr>
-                    <td>{{data.NIT}}</td>
-                    <td>{{data.Contribuyente}}</td>
-                    <td>{{data.Delegacion}}</td>
-                    <td>{{data.fecha_Registro}}</td>
-                    <td>{{data.fecha_Liquidacion}}</td>
-                    <td>{{data.IVA}}</td>
+                    <td>{{data.nit_contribuyente}}</td>
+                    <td>{{data.contribuyente}}</td>
+                    <td>{{data.delegacion_de_aduanas}}</td>
+                    <td>{{data.fecha_de_registro | filtroFecha}}</td>
+                    <td>{{data.fecha_de_liquidacion | filtroFecha}}</td>
+                    <td>$ {{data.iva}}</td>
                   </tr>
                 </ng-template>
+
+                <ng-template pTemplate="emptymessage">
+                  <tr>
+                      <td colspan="7">Sin resultados.</td>
+                  </tr>
+              </ng-template>
+
         </p-table>
       </div>
     </div>
   </div>
+
+  <p-toast position="bottom-center"></p-toast>

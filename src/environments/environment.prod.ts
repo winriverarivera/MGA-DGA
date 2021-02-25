@@ -2,5 +2,5 @@
 
 export const environment = {
   production: true,
-  apiURL: 'https://adminpro-backend.herokuapp.com/api'
+  apiURL: 'https://desadga2.mh.gob.sv/maa-consulta'
 };
