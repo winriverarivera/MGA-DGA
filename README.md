@@ -1,4 +1,4 @@
-# ACACYA SPA
+# MGA - DGA
 
 ## Local test
 
