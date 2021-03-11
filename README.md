@@ -20,4 +20,7 @@ npm install i
 4. Ejecutar la aplicación en el servidor local
 ```
 ng serve -o
+
+5. Contruir
+ng build --prod --base-href /MAA/
 ```
